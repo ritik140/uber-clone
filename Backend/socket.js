@@ -9,6 +9,7 @@ function initializeSocket(server) {
     cors: {
       origin: "https://uber-clone-frontend-ashen.vercel.app",
       methods: ["GET", "POST"],
+      Credential:true
     },
   });
 

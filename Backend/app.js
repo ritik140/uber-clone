@@ -14,9 +14,9 @@ connectToDb();
 
 app.use(
   cors({
-    origin: ["https://uber-clone-frontend-ashen.vercel.app"],
-    methods: ["POST", "GET"],
-    credentials: true,
+    origin: "https://uber-clone-frontend-ashen.vercel.app", // ✅ Use your frontend URL
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true, // ✅ Important for cookies/auth
   })
 );
 app.use(express.json());
