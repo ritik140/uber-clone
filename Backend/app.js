@@ -14,7 +14,7 @@ connectToDb();
 
 app.use(
   cors({
-    origin: ["https://uber-clone-frontend-ashen.vercel.app"],
+    origin: ["https://uber-clone-backend-orcin.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
